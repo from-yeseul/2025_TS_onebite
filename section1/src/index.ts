@@ -1,2 +1,2 @@
-console.log("HEllooo");
+console.log("HElloooooo");
 const a: number = 1;

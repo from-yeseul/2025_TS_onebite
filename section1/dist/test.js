@@ -1,2 +1,3 @@
-"use strict";
-console.log("Test");
+export const test = (message) => {
+    console.log("test" + message);
+};
