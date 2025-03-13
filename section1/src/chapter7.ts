@@ -1,9 +1,9 @@
 //void : 빈
 let a: void;
-a = 1;
-a = "hello";
-a = {};
-a = undefined;  //undefined만 가능
+// a = 1;
+// a = "hello";
+// a = {};
+// a = undefined;  //undefined만 가능
 
 
 function func1():string {
@@ -16,11 +16,11 @@ function func2():void {
 
 //never : 존재하지 않는
 let b: never;
-b = 1;
-b = "hello";
-b = {};
-b = undefined;  //undefined도 안됨
-b = null;   //null도 안됨
+// b = 1;
+// b = "hello";
+// b = {};
+// b = undefined;  //undefined도 안됨
+// b = null;   //null도 안됨
 
 
 function func3(): never {
